@@ -1,0 +1,35 @@
+# --- Environnements & secrets ---
+.env
+.env.*
+*.key
+*.pem
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# --- Virtual envs ---
+venv/
+.env/
+env/
+.venv/
+
+# --- IDE & outils ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# --- Logs & données temporaires ---
+*.log
+*.sqlite3
+*.db
+*.bak
+
+# --- Déploiement / build ---
+build/
+dist/
+*.egg-info/
